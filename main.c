@@ -6,8 +6,8 @@
 #include "hardware/clocks.h"
 #include "main.pio.h"
 
-#define FREQUENCY 800000 // PIO clock em 8 MHz
-#define NUM_PIXELS 25 // Número de pixels da matriz de LEDs 5x5
+#define FREQUENCY 800000 
+#define NUM_PIXELS 25 
 
 // PINOS
 #define WS2812 7
@@ -21,17 +21,18 @@ uint8_t RED = 25; // Intensidade vermelho
 uint8_t GREEN = 0; // Intensidade verde
 uint8_t BLUE = 0; // Intensidade azul
 
-static volatile int num = 0; // Altera o número exibido na matriz de LEDS
-static volatile uint32_t last_time_contador = 0; // Armazena o tempo do contador (em microssegundos)
-static volatile uint32_t last_time_led = 0; // Armazena o tempo do led (em microssegundos)
+static volatile int num = 0; // Número exibido na matriz
+static volatile uint32_t last_time_contador = 0; // Armazena o tempo do contador 
+static volatile uint32_t last_time_led = 0; // Armazena o tempo do led
 
 //Funções
 void pinos();
-static void gpio_irq_handler(uint gpio, uint32_t events); // Lida com interrupções
-static inline uint32_t cor(uint8_t r, uint8_t g, uint8_t b); // Define a cor dos pixels
+void numeros_matriz(); // Exibe o numero na matriz de LEDs
+static void gpio_irq_handler(uint gpio, uint32_t events); // Interrupções
+static inline uint32_t cor(uint8_t r, uint8_t g, uint8_t b); // Cor dos pixels
 static inline void colorir(uint32_t pixel_grb); // Colore os pixels da matriz
-void piscar_led(); // Pisca o LED vermelho a cada 5 vezes por segundo
-void numeros_matriz(); // Exibe o numero exibido na matriz de LEDs ws2812
+void piscar_led(); // Pisca o LED vermelho
+
     
 
 int main(){
