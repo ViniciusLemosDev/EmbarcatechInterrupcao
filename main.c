@@ -17,9 +17,9 @@
 #define BUTTON_A 5
 #define BUTTON_B 6
 
-uint8_t RED = 25; // Intensidade vermelho
+uint8_t RED = 0; // Intensidade vermelho
 uint8_t GREEN = 0; // Intensidade verde
-uint8_t BLUE = 0; // Intensidade azul
+uint8_t BLUE = 12; // Intensidade azul
 
 static volatile int num = 0; // Número exibido na matriz
 static volatile uint32_t last_time_contador = 0; // Armazena o tempo do contador 

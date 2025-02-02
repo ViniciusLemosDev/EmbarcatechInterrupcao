@@ -45,9 +45,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  20 .debug_rnglists 00004d01  00000000  00000000  00069310  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line   00026a43  00000000  00000000  0006e011  2**0
+ 21 .debug_line   00026a41  00000000  00000000  0006e011  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_str    0000967b  00000000  00000000  00094a54  2**0
+ 22 .debug_str    0000967b  00000000  00000000  00094a52  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  23 .debug_frame  000033b8  00000000  00000000  0009e0d0  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -379,10 +379,10 @@ Disassembly of section .text:
 1000033c:	e7f3      	b.n	10000326 <numeros_matriz+0x52>
 1000033e:	46c0      	nop			@ (mov r8, r8)
 10000340:	100072ac 	.word	0x100072ac
-10000344:	20000f98 	.word	0x20000f98
-10000348:	2000211a 	.word	0x2000211a
+10000344:	2000211a 	.word	0x2000211a
+10000348:	20002119 	.word	0x20002119
 1000034c:	20001fac 	.word	0x20001fac
-10000350:	20002119 	.word	0x20002119
+10000350:	20000f98 	.word	0x20000f98
 10000354:	50200000 	.word	0x50200000
 
 10000358 <gpio_irq_handler>:
@@ -15612,7 +15612,7 @@ Disassembly of section .data:
 20000f92:	bf00      	nop
 20000f94:	10000915 	.word	0x10000915
 
-20000f98 <RED>:
+20000f98 <BLUE>:
 20000f98:	                                         .
 
 20000f99 <striped_spin_lock_num>:

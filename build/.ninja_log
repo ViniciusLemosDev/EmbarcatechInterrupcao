@@ -92,3 +92,7 @@
 3679	3835	7602317717256585	CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	dd4e8b78ff0d83c0
 3558	3910	7602317716051405	CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj	dc3b9ca31c06629a
 3699	4044	7602317717456564	CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pio/pio.c.obj	54254982bee55046
+21	198	7602348243462916	CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj	c7309581bdc82ad1
+198	498	7602348245226828	EmbarcatechInterrupcao.elf	6576f2d1ea53a8a2
+29	285	7602349397812088	CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj	c7309581bdc82ad1
+286	632	7602349400379216	EmbarcatechInterrupcao.elf	6576f2d1ea53a8a2

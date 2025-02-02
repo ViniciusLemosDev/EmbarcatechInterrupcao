@@ -3647,8 +3647,8 @@ LOAD C:/Users/vinic/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.rodata*)
                 0x20000f98                        . = ALIGN (0x4)
  *(.data*)
- .data.RED      0x20000f98        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
-                0x20000f98                RED
+ .data.BLUE     0x20000f98        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
+                0x20000f98                BLUE
  .data.striped_spin_lock_num
                 0x20000f99        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
  *fill*         0x20000f9a        0x2 
@@ -3812,10 +3812,10 @@ LOAD C:/Users/vinic/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x20002104        0x4 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss.usbd_serial_str
                 0x20002108       0x11 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .bss.BLUE      0x20002119        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
-                0x20002119                BLUE
- .bss.GREEN     0x2000211a        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
-                0x2000211a                GREEN
+ .bss.GREEN     0x20002119        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
+                0x20002119                GREEN
+ .bss.RED       0x2000211a        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
+                0x2000211a                RED
  .bss._app_driver_count
                 0x2000211b        0x1 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
  .bss._sof_enable
@@ -4554,59 +4554,59 @@ LOAD linker stubs
  .debug_rnglists
                 0x000047dc      0x525 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pio/pio.c.obj
 
-.debug_line     0x00000000    0x26a43
- .debug_line    0x00000000      0xd04 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
- .debug_line    0x00000d04     0x1c97 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000299b      0x262 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
- .debug_line    0x00002bfd      0x28a CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x00002e87      0x930 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_line    0x000037b7      0x4d2 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00003c89      0x3ba CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x00004043     0x1716 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00005759      0x2e5 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00005a3e     0x1b28 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00007566      0x419 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x0000797f     0x3136 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_line    0x0000aab5     0x1d34 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000c7e9      0xfa9 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x0000d792     0x1e10 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000f5a2      0x500 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000faa2      0x7b4 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00010256      0x344 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x0001059a      0x47b CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x00010a15      0x35d CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00010d72      0x319 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0001108b      0x542 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x000115cd      0x567 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x00011b34      0x107 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00011c3b      0x2a9 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x00011ee4      0x3f3 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x000122d7      0x568 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x0001283f       0x5d CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x0001289c       0x61 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000128fd      0x3a8 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x00012ca5      0x424 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x000130c9       0x94 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0001315d      0x1f5 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x00013352     0x1b8f CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00014ee1       0xa5 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00014f86      0x870 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x000157f6     0x154f CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x00016d45      0xe23 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x00017b68      0x527 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0001808f     0x11cc CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0001925b      0x3c1 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0001961c      0x667 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x00019c83      0xb5a CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x0001a7dd     0x2040 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x0001c81d      0xcd1 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x0001d4ee     0x2858 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x0001fd46      0x6e6 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x0002042c     0x113b CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00021567      0xb08 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_line    0x0002206f     0x1115 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x00023184     0x1adb CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x00024c5f     0x1de4 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pio/pio.c.obj
+.debug_line     0x00000000    0x26a41
+ .debug_line    0x00000000      0xd02 CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
+ .debug_line    0x00000d02     0x1c97 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00002999      0x262 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
+ .debug_line    0x00002bfb      0x28a CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00002e85      0x930 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x000037b5      0x4d2 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00003c87      0x3ba CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x00004041     0x1716 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00005757      0x2e5 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00005a3c     0x1b28 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00007564      0x419 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x0000797d     0x3136 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_line    0x0000aab3     0x1d34 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000c7e7      0xfa9 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x0000d790     0x1e10 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000f5a0      0x500 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000faa0      0x7b4 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00010254      0x344 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x00010598      0x47b CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00010a13      0x35d CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00010d70      0x319 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00011089      0x542 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x000115cb      0x567 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x00011b32      0x107 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00011c39      0x2a9 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x00011ee2      0x3f3 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x000122d5      0x568 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x0001283d       0x5d CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x0001289a       0x61 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000128fb      0x3a8 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x00012ca3      0x424 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x000130c7       0x94 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0001315b      0x1f5 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x00013350     0x1b8f CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00014edf       0xa5 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x00014f84      0x870 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x000157f4     0x154f CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x00016d43      0xe23 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x00017b66      0x527 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0001808d     0x11cc CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x00019259      0x3c1 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0001961a      0x667 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x00019c81      0xb5a CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0001a7db     0x2040 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0001c81b      0xcd1 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x0001d4ec     0x2858 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x0001fd44      0x6e6 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x0002042a     0x113b CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00021565      0xb08 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_line    0x0002206d     0x1115 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00023182     0x1adb CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x00024c5d     0x1de4 CMakeFiles/EmbarcatechInterrupcao.dir/C_/Users/vinic/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pio/pio.c.obj
 
 .debug_str      0x00000000     0x967b
  .debug_str     0x00000000     0x967b CMakeFiles/EmbarcatechInterrupcao.dir/main.c.obj
