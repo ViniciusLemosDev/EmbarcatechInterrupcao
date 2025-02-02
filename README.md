@@ -54,6 +54,6 @@ O código é modularizado da seguinte forma:
 Este projeto combina hardware e software para demonstrar o uso de interrupções, manipulação de LEDs WS2812 e debouncing em botões, proporcionando uma aplicação prática e interativa do microcontrolador RP2040.
 
 ## Link do vídeo
-https://youtu.be/on6p81-i8TM
+[https://youtu.be/on6p81-i8TM](https://youtu.be/gDQtVCx9nAc)
 
 
